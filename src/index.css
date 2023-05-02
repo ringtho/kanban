@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
 
+:root {
+  --primary-btn: #635FC7;
+  --primary-btn-hover: #A8A4FF;
+  --secondary-light: #F4F7FD;
+  --primary-light: #E4EBFA;
+  --text-color-light: #828FA3;
+  --text-color-dark: #000112;
+  --secondary-btn: #EA5555;
+  --secondary-btn-hover: #FF9898;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,6 +19,58 @@
 
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--primary-light);
+  color: var(--text-color-dark);
+}
+
+.header {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-logo {
+  height: 25px;
+  width: 24px;
+}
+
+.nav-elipsis {
+  height: 1rem;
+}
+
+.board-option {
+  display: flex;
+  gap: 0.5rem;
+  margin-right: auto;
+  margin-left: 1rem;
+  align-items: center;
+}
+
+.board-option:hover {
+  cursor: pointer;
+}
+
+.board-icon {
+  align-self: center;
+}
+
+.board-option h3 {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.nav-btn {
+  width: 48px;
+  height: 32px;
+  border-radius: 24px;
+  border: none;
+  background-color: var(--primary-btn);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 1rem;
 }
 
 
