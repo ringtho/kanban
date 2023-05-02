@@ -1,6 +1,6 @@
 # Frontend Mentor - Kanban task management web app
 
-![Design preview for the Kanban task management web app coding challenge](./preview.jpg)
+![Design preview for the Kanban task management web app coding challenge](./src/assets/preview.jpg)
 
 ## Welcome! 👋
 
