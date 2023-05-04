@@ -21,7 +21,7 @@ const AddNewTask = () => {
                         <div className="add-subtask">
                             <input type="text" placeholder="e.g. Take coffee break" />
                             <input type="text" placeholder="e.g. Take coffee break" />
-                            <button>+ Add New Subtask</button>
+                            <button className="add-subtask-btn">+ Add New Subtask</button>
                         </div>
                     </div>
                     <div className="add-task">
@@ -32,7 +32,7 @@ const AddNewTask = () => {
                             <option>Done</option>
                         </select>
                     </div>
-                    <button type="submit">Create Task</button>
+                    <button type="submit" className="create-task-btn">Create Task</button>
                 </form>
             </div>
             

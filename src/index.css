@@ -260,9 +260,23 @@ body {
 
 button {
   border-radius: 20px;
+  font-size: 13px;
+  line-height: 23px;
+  border: none;
+  font-weight: bold;
 }
 
-.add-task-form button {
+button:hover {
+  cursor: pointer;
+}
 
+.add-subtask-btn {
+  color: var(--primary-btn);
+  background-color: rgba(99, 95, 199, 0.1);
+}
+
+.create-task-btn {
+  color: #FFFFFF;
+  background-color: var(--primary-btn);
 }
 
