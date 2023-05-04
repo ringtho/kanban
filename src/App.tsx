@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Todo from "./components/Todo"
+import Doing from './components/Doing';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <section className="tasks-container">
         <Todo />
+        <Doing />
       </section>
 
     </div>
