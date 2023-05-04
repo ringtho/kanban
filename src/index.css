@@ -212,7 +212,7 @@ body {
 }
 
 .add-task input,
-.add-subtask input,
+.subtask-inputs input,
 .add-subtask button,
 .add-task textarea,
 .add-task select,
@@ -222,7 +222,7 @@ body {
 }
 
 .add-task input,
-.add-subtask input,
+.subtask-inputs input,
 .add-task textarea,
 .add-task select {
   border-radius: 4px;
@@ -233,7 +233,7 @@ body {
 }
 
 .add-task input::placeholder,
-.add-subtask input::placeholder,
+.subtask-inputs input::placeholder,
 .add-task textarea::placeholder,
 .add-task select::placeholder {
   color: var(--text-color-dark);
@@ -258,6 +258,7 @@ body {
   gap: 12px;
 }
 
+
 button {
   border-radius: 20px;
   font-size: 13px;
@@ -278,5 +279,28 @@ button:hover {
 .create-task-btn {
   color: #FFFFFF;
   background-color: var(--primary-btn);
+}
+
+.subtask-inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.subtask-inputs input {
+  width: 100%;
+}
+
+.cross-icon {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.add-task-form h1 {
+  font-size: 18px;
+  line-height: 23px;
 }
 

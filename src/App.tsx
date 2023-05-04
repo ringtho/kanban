@@ -5,6 +5,7 @@ import Doing from './components/Doing';
 import Done from './components/Done';
 import NewColumn from './components/NewColumn';
 import AddNewTask from './components/AddNewTask';
+import EditTask from './components/EditTask';
 
 function App() {
   const [clicked, setClicked] = useState(false)
@@ -18,6 +19,7 @@ function App() {
         <NewColumn />
       </section>
       <AddNewTask />
+      <EditTask />
     </div>
   )
 }
