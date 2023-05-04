@@ -144,4 +144,28 @@ body {
   font-weight: bold;
 }
 
+.new-column-wrapper {
+  width: 280px;
+  padding-top: 40px;
+}
+
+.new-column {
+  width: 280px;
+  background-color: #E9EFFA;
+  border-radius: 0.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color-light)
+}
+
+.new-column > h2 {
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.new-column > h2:hover {
+  cursor: pointer;
+}
 

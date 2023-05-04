@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Todo from "./components/Todo"
 import Doing from './components/Doing';
 import Done from './components/Done';
+import NewColumn from './components/NewColumn';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Todo />
         <Doing />
         <Done />
+        <NewColumn />
       </section>
 
     </div>
