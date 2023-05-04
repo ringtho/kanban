@@ -216,7 +216,8 @@ body {
 .add-subtask button,
 .add-task textarea,
 .add-task select,
-.add-task-form button {
+.add-task-form button,
+.delete-modal-btns button {
   padding: 0.5rem 1rem;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -271,14 +272,23 @@ button:hover {
   cursor: pointer;
 }
 
-.add-subtask-btn {
+.add-subtask-btn,
+.cancel-btn {
   color: var(--primary-btn);
   background-color: rgba(99, 95, 199, 0.1);
 }
 
-.create-task-btn {
+.create-task-btn,
+.delete-btn {
   color: #FFFFFF;
+}
+
+.create-task-btn {
   background-color: var(--primary-btn);
+}
+
+.delete-btn {
+  background-color: var(--secondary-btn);
 }
 
 .subtask-inputs {
@@ -299,8 +309,33 @@ button:hover {
   cursor: pointer;
 }
 
-.add-task-form h1 {
+.add-task-form h1,
+.delete-modal-wrapper h1 {
   font-size: 18px;
   line-height: 23px;
+}
+
+.delete-modal-btns,
+.delete-modal-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-modal-wrapper { 
+  gap: 1.5rem
+}
+
+.delete-modal-btns {
+  gap: 1rem;
+}
+
+.delete-modal-wrapper > h1 {
+  color: var(--secondary-btn);
+}
+
+.delete-modal-wrapper p {
+  font-size: 13px;
+  line-height: 23px;
+  color: var(--text-color-light)
 }
 
