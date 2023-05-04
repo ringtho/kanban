@@ -200,7 +200,8 @@ body {
   width: 100%;
 }
 
-.add-task-form {
+.add-task-form,
+.view-task {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -310,6 +311,7 @@ button:hover {
 }
 
 .add-task-form h1,
+.view-task h1,
 .delete-modal-wrapper h1 {
   font-size: 18px;
   line-height: 23px;
@@ -333,9 +335,46 @@ button:hover {
   color: var(--secondary-btn);
 }
 
-.delete-modal-wrapper p {
+.delete-modal-wrapper p,
+.view-task p {
   font-size: 13px;
   line-height: 23px;
   color: var(--text-color-light)
+}
+
+.view-subtask {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background-color: var(--secondary-light);
+  padding: 12px 8px 12px 12px;
+  border-radius: 4px;
+}
+
+.view-subtasks-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.view-subtask label {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+}
+
+input[type="checkbox"] {
+  height: 1rem;
+  width: 1rem;
+  accent-color: var(--primary-btn);
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label {
+  color: var(--text-color-dark);
+  opacity: 50%;
+  text-decoration: line-through;
+  text-decoration-color: var(--text-color-dark);
 }
 

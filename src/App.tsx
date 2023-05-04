@@ -10,6 +10,7 @@ import AddNewBoard from './components/AddNewBoard';
 import EditBoard from './components/EditBoard';
 import DeleteBoard from './components/DeleteBoard';
 import DeleteTask from './components/DeleteTask';
+import ViewTask from './components/ViewTask';
 
 function App() {
   const [clicked, setClicked] = useState(false)
@@ -28,6 +29,7 @@ function App() {
       <EditBoard />
       <DeleteBoard />
       <DeleteTask />
+      <ViewTask />
     </div>
   )
 }
