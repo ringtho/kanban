@@ -5,7 +5,7 @@ import addIcon from "../assets/icon-add-task-mobile.svg"
 import elipsisIcon from "../assets/icon-vertical-ellipsis.svg"
 import { useState } from "react"
 
-const Navbar = () => {
+const Navbar = ({setClicked}) => {
 
     const [isOpen, setIsOpen] = useState(false)
     console.log(isOpen)
@@ -20,7 +20,7 @@ const Navbar = () => {
                     <img src={downIcon} alt="icon-down" className="board-icon" />
                 }  
             </div>
-            <button className="nav-btn">
+            <button className="nav-btn" onClick={() => setClicked(prev => !prev)}>
                 <img src={addIcon} alt="add-icon" className="nav-add-icon"/>
             </button>
             <img src={elipsisIcon} alt="elipsis-icon" className="nav-elipsis" />

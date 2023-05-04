@@ -23,14 +23,6 @@ const Done = () => {
                     <p>1 of 3 subtasks</p>
                 </div>
                 <div className="todo-body">
-                    <h3>Design onboarding flow</h3>
-                    <p>0 of 3 subtasks</p>
-                </div>
-                <div className="todo-body">
-                    <h3>Design onboarding flow</h3>
-                    <p>0 of 3 subtasks</p>
-                </div>
-                <div className="todo-body">
                     <h3>Research pricing points of various competitors 
                         and trial different business models</h3>
                     <p>1 of 3 subtasks</p>

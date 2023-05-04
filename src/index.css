@@ -23,6 +23,16 @@ body {
   color: var(--text-color-dark);
 }
 
+.app {
+  position: relative;
+}
+
+/* .app-clicked {
+  position: relative;
+  z-index: 300;
+  background-color: #000000;
+} */
+
 .header {
   background-color: #FFFFFF;
   display: flex;
@@ -30,6 +40,7 @@ body {
   padding: 1rem;
   position: sticky;
   top: 0;
+  /* z-index: 2; */
 }
 
 .nav-logo {
@@ -169,5 +180,89 @@ body {
 
 .new-column > h2:hover {
   cursor: pointer;
+}
+
+.add-task-wrapper {
+  /* background-color: #000000;
+  opacity: 50%;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%; */
+}
+
+.add-task-container {
+  border: 1px solid red;
+  background-color: #FFFFFF;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.add-task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.add-task {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-task input,
+.add-subtask input,
+.add-subtask button,
+.add-task textarea,
+.add-task select,
+.add-task-form button {
+  padding: 0.5rem 1rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.add-task input,
+.add-subtask input,
+.add-task textarea,
+.add-task select {
+  border-radius: 4px;
+  border: 1px solid rgba(130, 143, 163, 0.25);
+  font-size: 13px;
+  line-height: 23px;
+  outline: none;
+}
+
+.add-task input::placeholder,
+.add-subtask input::placeholder,
+.add-task textarea::placeholder,
+.add-task select::placeholder {
+  color: var(--text-color-dark);
+  opacity: 30%;
+}
+
+.add-task textarea {
+  height: 112px;
+  resize: none;
+}
+
+.add-task > label {
+  margin-bottom: 0.5rem;
+  font-size: 12px;
+  color: var(--text-color-light);
+  font-weight: bold;
+}
+
+.add-subtask {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+button {
+  border-radius: 20px;
+}
+
+.add-task-form button {
+
 }
 
