@@ -3,7 +3,7 @@ import crossIcon from "../assets/icon-cross.svg"
 
 const EditBoard = () => {
     return (
-        <section className="add-task-wrapper">
+        <section className="modal">
             <div className="add-task-container"> 
                 <form className="add-task-form">
                     <h1>Edit Board</h1>

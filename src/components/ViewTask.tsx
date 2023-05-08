@@ -2,7 +2,7 @@
 
 const ViewTask = () => {
     return (
-        <section className="add-task-wrapper">
+        <section className="modal">
             <div className="add-task-container"> 
                 <div className="view-task">
                     <h1>

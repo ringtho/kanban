@@ -2,7 +2,7 @@ import crossIcon from "../assets/icon-cross.svg"
 
 const AddNewTask = () => {
     return (
-        <section className="add-task-wrapper">
+        <section className="modal">
             <div className="add-task-container"> 
                 <form className="add-task-form">
                     <h1>Add New Task</h1>

@@ -2,7 +2,7 @@
 
 const DeleteTask = () => {
     return (
-        <section className="add-task-wrapper">
+        <section className="modal">
             <div className="add-task-container">
                 <div className="delete-modal-wrapper">
                     <h1>Delete this task?</h1>
