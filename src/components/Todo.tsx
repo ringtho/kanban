@@ -1,6 +1,8 @@
+import { useState } from "react"
 
 
 const Todo = () => {
+    const [isClicked, setIsClicked] = useState(false)
     return (
         <section>
             <div className="todo-header">
@@ -8,7 +10,9 @@ const Todo = () => {
                 <p className="todo-title">Todo (4)</p>
             </div>
             <div className="todo-body-wrapper">
-                <div className="todo-body">
+                <div 
+                    className={"todo-body"}
+                    onClick={() => setIsClicked(!isClicked)}>
                     <h3>Build UI for onboarding flow</h3>
                     <p>0 of 3 subtasks</p>
                 </div>
