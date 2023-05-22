@@ -1,7 +1,7 @@
+import React from 'react'
 
-
-const Doing = () => {
-    return (
+const Doing = (): any => {
+  return (
         <section>
             <div className="todo-header">
                 <div className="doing-circle"></div>
@@ -21,13 +21,13 @@ const Doing = () => {
                     <p>1 of 3 subtasks</p>
                 </div>
                 <div className="todo-body">
-                    <h3>Research pricing points of various competitors 
+                    <h3>Research pricing points of various competitors
                         and trial different business models</h3>
                     <p>1 of 3 subtasks</p>
                 </div>
             </div>
         </section>
-    )
+  )
 }
 
 export default Doing

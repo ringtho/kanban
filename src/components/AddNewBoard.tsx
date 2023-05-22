@@ -1,9 +1,10 @@
-import crossIcon from "../assets/icon-cross.svg"
+import crossIcon from '../assets/icon-cross.svg'
+import React from 'react'
 
-const AddNewBoard = () => {
-    return (
+const AddNewBoard = (): any => {
+  return (
         <section className="modal">
-            <div className="add-task-container"> 
+            <div className="add-task-container">
                 <form className="add-task-form">
                     <h1>Add New Board</h1>
                     <div className="add-task">
@@ -27,9 +28,8 @@ const AddNewBoard = () => {
                     <button type="submit" className="create-task-btn">Create New Board</button>
                 </form>
             </div>
-            
         </section>
-    )
+  )
 }
 
 export default AddNewBoard

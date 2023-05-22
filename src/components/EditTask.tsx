@@ -1,11 +1,10 @@
+import React from 'react'
+import crossIcon from '../assets/icon-cross.svg'
 
-
-import crossIcon from "../assets/icon-cross.svg"
-
-const EditTask = () => {
-    return (
+const EditTask = (): any => {
+  return (
         <section className="modal">
-            <div className="add-task-container"> 
+            <div className="add-task-container">
                 <form className="add-task-form">
                     <h1>Edit Task</h1>
                     <div className="add-task">
@@ -15,8 +14,8 @@ const EditTask = () => {
                     </div>
                     <div className="add-task">
                         <label htmlFor="description">Description</label>
-                        <textarea 
-                        placeholder="e.g. It’s always good to take a break. 
+                        <textarea
+                        placeholder="e.g. It’s always good to take a break.
                         This 15 minute break will  recharge the batteries a little."
                         id="description" />
                     </div>
@@ -47,9 +46,8 @@ const EditTask = () => {
                     <button type="submit" className="create-task-btn">Create Task</button>
                 </form>
             </div>
-            
         </section>
-    )
+  )
 }
 
 export default EditTask

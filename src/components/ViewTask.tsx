@@ -1,18 +1,18 @@
+import React from 'react'
 
-
-const ViewTask = () => {
-    return (
+const ViewTask: React.FC = () => {
+  return (
         <section className="modal">
-            <div className="add-task-container"> 
+            <div className="add-task-container">
                 <div className="view-task">
                     <h1>
-                    Research pricing points of various 
+                    Research pricing points of various
                     competitors and trial different business models
                     </h1>
 
                     <p>
-                    We know what we're planning to build for version one. 
-                    Now we need to finalise the first pricing model we'll use. 
+                    We know what we&aposre planning to build for version one.
+                    Now we need to finalise the first pricing model we&aposll use.
                     Keep iterating the subtasks until we have a coherent proposition.
                     </p>
                     <div className="add-task">
@@ -49,9 +49,8 @@ const ViewTask = () => {
                     </div>
                 </div>
             </div>
-            
         </section>
-    )
+  )
 }
 
 export default ViewTask
